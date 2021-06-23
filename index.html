@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="main">
+            <h1>RESULT</h1>
+           <div class="subject">
+            <!-- <label for="">English</label> -->
+            <input type="number" id="eng" placeholder="English">
+           </div>
+           <div class="subject">
+            <!-- <label for="">Bangla</label> -->
+            <input type="number" id="bng" placeholder="Bangla">
+           </div>
+           <div class="subject">
+            <!-- <label for="">Math</label> -->
+            <input type="number" id="math" placeholder="Math">
+           </div>
+           <div class="subject">
+            <!-- <label for="">Physics</label> -->
+            <input type="number" id="phy" placeholder="Physics">
+           </div>
+           <div class="buttons">
+               <button onclick="total()">Total</button>
+               <button onclick="average()">Average</button>
+               <button onclick="grade()">Grade</button>
+           </div>
+           <div class="results">
+               <h4>Total:</h4>
+               <div id="total">
+
+               </div>
+               <h4>Average:</h4>
+               <div id="average">
+
+            </div>
+            <h4>Grade:</h4>
+            <div id="grade">
+                   
+            </div>
+            </div>
+           </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

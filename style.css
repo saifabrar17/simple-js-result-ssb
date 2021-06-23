@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    text-align: center;
+}
+.main h1{
+    font-size: 26px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.subject input{
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #646464;
+    color: black;
+    outline: none;
+}
+.subject input::placeholder{
+
+    color: black;
+}
+.results h4{
+    padding-top: 20;
+}
